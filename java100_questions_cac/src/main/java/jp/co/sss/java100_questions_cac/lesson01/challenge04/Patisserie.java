@@ -39,13 +39,8 @@ public class Patisserie {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
 		String str1 = reader.readLine();
-		System.out.println("\nシトロン＞" + str1);
-
 		String str2 = reader.readLine();
-		System.out.println("ショコラ＞" + str2);
-
 		String str3 = reader.readLine();
-		System.out.println("ピスタージュ＞" + str3);
 
 		System.out.println("\nシトロン" + str1 + "個");
 		System.out.println("ショコラ" + str2 + "個");
